@@ -69,45 +69,7 @@ while (room != "finalroom")
 if (room == "finalroom")
 {
     Console.WriteLine("Welcome to the FINAL ROOOM!");
-    Console.WriteLine("To win you must complete Tu,s math test!");
-    Console.WriteLine("And if you lose he will haunt you forever!");
-    Console.WriteLine(" ");
-    Console.WriteLine("Press ENTER if you are ready to begin");
+    Console.WriteLine("You did it, you WON!");
     Console.ReadLine();
 }
 
-int points = 0;
-
-while (true)
-{
-    Console.WriteLine("There will be 3 question with increasing diffuculty as we progress.");
-    Console.WriteLine(" ");
-    Console.WriteLine("Press ENTER to start");
-    Console.ReadLine();
-    Console.Clear();
-
-    Console.WriteLine("Question 1: What is the value of x");
-    Console.WriteLine(" ");
-    Console.WriteLine("6x + 54 = 72");
-    Console.WriteLine(" ");
-
-    string answer1 = Console.ReadLine();
-
-    if (answer1 == "3")
-    {
-        Console.WriteLine("Correct!");
-        Console.WriteLine("You get 1 point");
-        points++;
-        Console.WriteLine(" ");
-        Console.WriteLine("Press ENTER to continue");
-        Console.ReadLine();
-    }
-    else if (answer1 != "3")
-    {
-        Console.WriteLine("INCORRECT!");
-        Console.WriteLine("Tu will torture you with the same question until you get it correct or quit/go insane");
-        Console.WriteLine(" ");
-        Console.WriteLine("Press ENTER to restart the quiz");
-        Console.ReadLine();
-        }
-}
